@@ -1,8 +1,9 @@
-        li > div, h1 {
+        div {
             background-color: #A8D1D1;
+            padding: 1rem;
         }
 
-        div {
+        .song {
             background-color: #87A2FF;
             margin: 16px;
             padding: 16px;
@@ -10,4 +11,14 @@
 
         li {
             list-style-type: none;
+        }
+
+       /* li:nth-child(3) {
+            font-weight: bold;
+        }*/
+
+        div:hover {
+            background-color: #F1F785;
+            font-weight: bold;
+            font-size: 1.1rem;
         }
